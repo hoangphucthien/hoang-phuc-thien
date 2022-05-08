@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: #ccffcc;
+}
+.col-img {
+    height: 300px;
+    padding: 50px 0;
+    background-image : url(../img/nen3.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.col-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.col-content h2{
+    color: white;
+    position: absolute;
+    z-index: 9;
+    margin-top: 50;
+    width: 100%;
+}
+.collection{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.menu{
+    background-color: #3d1a1a;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.panel{
+    line-height: 2;
+}
+.chose{
+    list-style: none;
+}
+.more-content{
+    display: none;
+}
+.read-more{
+    border-radius: 6px;
+    background-color: #3d1a1a;
+    color: white;
+}
+.icon{
+    padding: 4px 4px 0 0 ;
+}
+.col-nav{
+    margin: 100px;
+}
+.pagination{
+    justify-content: center;
+}
+.read-more a{
+    color: white;
+}
+.read-more a:hover{
+    color: white;
+    text-decoration: none;
+}
+.col-tong{
+    display: flex;
+}
+.col-tong1{
+    display: flex;
+}
+@media (min-width: 320px)
+and (max-width: 480px){ 
+    .col-tong{
+        display: block;
+    }
+    .col-tong1{
+        display: block;
+    }
+    .buynow{
+        right: 15px;
+        position: absolute;
+        top: 15;
+        height: 60px;
+    }
+    .vote{
+        width: 60%;
+    }
+}

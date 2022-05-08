@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: #e6e6e6;
+}
+.col-img2 {
+    height: 300px;
+    padding: 50px 0;
+    background-image : url(../img/nen6.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.col-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.col-content h2{
+    color: white;
+    position: absolute;
+    z-index: 9;
+    margin-top: 50;
+    width: 100%;
+}
+.read-moree{
+    background: #3d1a1a;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.col-icon i{
+    font-size: 32;
+}

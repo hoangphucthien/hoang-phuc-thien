@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: #e6e6e6;
+}
+.col-img {
+    height: 300px;
+    padding: 50px 0;
+    background-image : url(../img/nen4.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.col-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.col-content h2{
+    color: white;
+    position: absolute;
+    z-index: 9;
+    margin-top: 50;
+    width: 100%;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    border: hidden;
+    padding: 10px 10px 10px 15px;
+    border-radius: 5px;
+}
+.display p{
+    margin: 0;
+}
+.comment{
+    border: 1px solid;
+    padding: 15px;
+}

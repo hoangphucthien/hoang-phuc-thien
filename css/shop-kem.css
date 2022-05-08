@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color:  #d2a679;
+}
+.col-img {
+    height: 300px;
+    padding: 50px 0;
+    background-image : url(../img/nen7.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.col-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.col-content h2{
+    color: white;
+    position: absolute;
+    z-index: 9;
+    margin-top: 50;
+    width: 100%;
+}
+.col-border{
+    padding: 28px 23px;
+    background: #fff;
+    border-radius: 10px;
+    border: solid 1px #ddd;
+}
+.img{
+    cursor: pointer;
+}
+.col-img2{
+    padding: 28px 23px;
+    background: #fff;
+    border-radius: 10px;
+    border: solid 1px #ddd;
+}
+.col-border hr{
+    border-top: solid #e6e6e6;
+    border-width: 1px 0 0;
+    margin: 30px 0;
+    height: 0;
+}
+.container2{
+    color: #3D1A1A;
+    font-family: "UTMAvo", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.col-font-size{
+    font-size: 26px;
+}
+.cm p{
+    border: 1px solid;
+    width: 10%;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.add{
+    background: #3d1a1a;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.buy{
+    background: #c0c906;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.same{
+    padding: 10px 35px;
+    background: #3D1A1A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.more{
+    padding: 10px 35px;
+    background: #0CA8DA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.row-more{
+    display: none;
+}
+.col-main{
+    position: relative;
+    margin: 0 auto;
+}
+.slide{
+    display: none;
+}
+.active{
+    display: block;
+} 
+#back{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+#next{
+    position: absolute;
+    right:0px;
+    top: 40%;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+.slide-caro{
+    display: block;
+}
+.col-tong{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background: #a06464;
+}
+.control{
+    height: 20%;
+    margin: auto;
+}
+.buynow{
+    border: 1px solid;
+    height: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0CA8DA;
+}
+.buynow:hover{
+    color: white;
+}
+.col-tong1{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background: #9cad36;
+}
+.new{
+    width: 30%;
+    text-align: center;
+    border: 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-weight: 900;
+    background: rgb(0, 255, 42);
+    color: white;
+    border-bottom: hidden;
+}
+.vote{
+    width: 40%;
+    text-align: center;
+    border: 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-weight: 900;
+    background: rgb(255, 115, 0);
+    color: white;
+    border-bottom: hidden;
+}
+.star{
+    position: absolute;
+    color: yellow;
+    bottom: 15px;
+    font-size: 22px;
+}
+.bg-img{
+    filter:brightness(50%)
+}
+.main-foot{
+    padding-bottom: 100px;
+}
+#size1{
+    border-color: red;
+}
