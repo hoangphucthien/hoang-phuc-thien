@@ -28,6 +28,9 @@ header{
 .header-col .nav-tabs{
     border-bottom:hidden;
 }
+.auto{
+    margin: auto;
+}
 .font{
     color: #3d1a1a;
 }
@@ -89,6 +92,10 @@ header{
     color: white;
     padding: 10px;
     border-radius: 5px;
+}
+.online{
+    color: yellow;
+    font-size: 24px;
 }
 .col-a {
     font-size: 26px;

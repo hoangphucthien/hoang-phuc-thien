@@ -44,7 +44,8 @@ $(document).ready(function(){
         messages: {
         name: "Nhập họ tên",
         field:{
-            required:"Nhập lại email"
+            required:"Nhập lại email",
+            email: "Email không hợp lệ"
         },
         subject: {
             required: "Nhập số điện thoại"

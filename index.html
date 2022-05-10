@@ -379,29 +379,27 @@
                     <img class="img-fluid " src="img/nen8.webp" alt="">
                 </div>
                 <div class="MainData col-lg-6 col-md-6 col-12 " >
-                    <form method="get" accept-charset="utf-8" id="formDemo">
-                        <fieldset id="data">
-                            <div class="data-box">
-                                <p class=" font-weight-bolder ">ĐẶT ONLINE NGAY!</p>
-                                <div>
-                                    <label class="label">Họ tên của bạn</label><br>
-                                    <input name="name" type="text" placeholder="Họ tên của bạn" required>
-                                </div>
-                                <div>
-                                    <label class="label">Email của bạn</label><br>
-                                    <input class="left" id="field" name="field" placeholder="Email của bạn">
-                                </div>
-                                <div>
-                                    <label class="label">Số điện thoại</label><br>
-                                    <input id="subject" name="subject" type="text" placeholder="Số điện thoại của bạn" required>
-                                </div>
+                    <form method="get" accept-charset="utf-8" class="validation">
+                        <p class=" font-weightbolder text-center online pt-3">ĐẶT ONLINE NGAY!</p>
+                        <div>
+                            <label class="label">Họ tên của bạn</label><br>
+                            <input name="firstName" type="text" class="form-control"  placeholder="Nhập họ tên" value="" required>
+                        </div>
+                        <div>
+                            <label class="label">Email của bạn</label><br>
+                            <input type="email" class="form-control" name="Email" placeholder="Email của bạn">
+                        </div>
+                        <div>
+                            <label class="label">Số điện thoại</label><br>
+                            <input name="phone" type="text" class="form-control"  placeholder="Số điện thoại của bạn" required>
+                        </div>
+                        <div>
+                            <label class="label">Nội dung</label><br>
+                            <textarea class="w-100" name="mess" id="" cols="35" rows="5" placeholder="Nội dung" required></textarea>
+                            <div class="formDemo-button mt-4 ">
+                                <button class="btn btn-primary btn-lg btn-block w-25 auto" type="submit">Đặt Hàng</button>
                             </div>
-                            <div>
-                                <label class="label">Nội dung</label><br>
-                                <textarea name="mess" id="" cols="20" rows="10" placeholder="Nội dung" required></textarea>
-                                <div class="formDemo-button mt-4"><button class="demobut" type="submit" value="validate">ĐẶT NGAY</button></div>
-                            </div>
-                        </fieldset>
+                        </div>
                     </form>
                 </div>
                 
